@@ -15,6 +15,9 @@
             @Html.DisplayNameFor(model => model.TopName)
         </th>
         <th>
+            @Html.DisplayNameFor(model => model.Photo)
+        </th>
+        <th>
             @Html.DisplayNameFor(model => model.Color)
         </th>
         <th>
@@ -26,9 +29,6 @@
         <th>
             @Html.DisplayNameFor(model => model.Type)
         </th>
-        <th>
-            @Html.DisplayNameFor(model => model.Photo)
-        </th>
         <th></th>
     </tr>
 
@@ -36,6 +36,9 @@
     <tr>
         <td>
             @Html.DisplayFor(modelItem => item.TopName)
+        </td>
+        <td>
+            <img class="TopsImages" src="@Html.DisplayFor(modelItem => item.Photo)" />
         </td>
         <td>
             @Html.DisplayFor(modelItem => item.Color)
@@ -50,12 +53,9 @@
             @Html.DisplayFor(modelItem => item.Type)
         </td>
         <td>
-            @Html.DisplayFor(modelItem => item.Photo)
-        </td>
-        <td>
-            @Html.ActionLink("Edit", "Edit", new { id=item.TopsID }) |
-            @Html.ActionLink("Details", "Details", new { id=item.TopsID }) |
-            @Html.ActionLink("Delete", "Delete", new { id=item.TopsID })
+            @Html.ActionLink("Edit", "Edit", new { id = item.TopsID }) |
+            @Html.ActionLink("Details", "Details", new { id = item.TopsID }) |
+            @Html.ActionLink("Delete", "Delete", new { id = item.TopsID })
         </td>
     </tr>
 }

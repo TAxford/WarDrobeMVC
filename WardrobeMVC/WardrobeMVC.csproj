@@ -195,6 +195,26 @@
     <Content Include="Content\bootstrap-theme.min.css" />
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
+    <Content Include="Content\Images\BlJeans.jpg" />
+    <Content Include="Content\Images\BSPants.jpg" />
+    <Content Include="Content\Images\BTie.jpg" />
+    <Content Include="Content\Images\CPants.jpg" />
+    <Content Include="Content\Images\DShoes.jpg" />
+    <Content Include="Content\Images\Ljacket.jpg" />
+    <Content Include="Content\Images\MMCT-shirt.jpg" />
+    <Content Include="Content\Images\MMFT-shirt.jpg" />
+    <Content Include="Content\Images\OBoots.jpg" />
+    <Content Include="Content\Images\OFSunglasses.jpg" />
+    <Content Include="Content\Images\OSunglasses.jpg" />
+    <Content Include="Content\Images\PFDHoodie.png" />
+    <Content Include="Content\Images\PFDT-shirt.jpg" />
+    <Content Include="Content\Images\PFFlipflops.jpg" />
+    <Content Include="Content\Images\PFTWHoodie.jpg" />
+    <Content Include="Content\Images\PFTWT-shirt.jpg" />
+    <Content Include="Content\Images\RPants.jpg" />
+    <Content Include="Content\Images\RTie.png" />
+    <Content Include="Content\Images\SSJacket.jpg" />
+    <Content Include="Content\Images\UShorts.jpg" />
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
@@ -286,7 +306,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
-    <Folder Include="Content\Images\" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
