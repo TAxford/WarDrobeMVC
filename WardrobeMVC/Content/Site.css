@@ -22,3 +22,45 @@ select,
 textarea {
     max-width: 280px;
 }
+
+/*Tops Page*/
+body.TopsBody {
+    background-image: url('Images/stone_pattern.jpg');
+    background-size: cover;
+}
+img.TopsImages{
+    height:100px;
+    width:100px;
+}
+
+img.TopsImages:hover {
+    height: 300px;
+    width: 300px;
+}
+
+h2{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size:50px;
+    color:snow;
+}
+
+a {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:snow;
+}
+
+a:hover {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: red;
+    background-color:black;
+}
+
+h3{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:snow;
+}
+
+p {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:snow;
+}

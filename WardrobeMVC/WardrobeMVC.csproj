@@ -214,6 +214,7 @@
     <Content Include="Content\Images\RPants.jpg" />
     <Content Include="Content\Images\RTie.png" />
     <Content Include="Content\Images\SSJacket.jpg" />
+    <Content Include="Content\Images\stone_pattern.jpg" />
     <Content Include="Content\Images\UShorts.jpg" />
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
