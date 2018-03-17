@@ -1,63 +1,28 @@
-﻿@model IEnumerable<WardrobeMVC.Models.Bottom>
+﻿<body class="BottomsBody">
+    @model IEnumerable<WardrobeMVC.Models.Bottom>
 
-@{
-    ViewBag.Title = "Index";
-}
+    @{
+        ViewBag.Title = "Index";
+    }
 
-<h2>Index</h2>
+    <h2>Wardrobe Bottoms</h2>
 
-<p>
-    @Html.ActionLink("Create New", "Create")
-</p>
-<table class="table">
-    <tr>
-        <th>
-            @Html.DisplayNameFor(model => model.BottomName)
-        </th>
-        <th>
-            @Html.DisplayNameFor(model => model.Color)
-        </th>
-        <th>
-            @Html.DisplayNameFor(model => model.Season)
-        </th>
-        <th>
-            @Html.DisplayNameFor(model => model.Occasion)
-        </th>
-        <th>
-            @Html.DisplayNameFor(model => model.Type)
-        </th>
-        <th>
-            @Html.DisplayNameFor(model => model.Photo)
-        </th>
-        <th></th>
-    </tr>
+    <p>
+        @Html.ActionLink("Add New Bottom", "Create")
+    </p>
 
-@foreach (var item in Model) {
-    <tr>
-        <td>
-            @Html.DisplayFor(modelItem => item.BottomName)
-        </td>
-        <td>
-            @Html.DisplayFor(modelItem => item.Color)
-        </td>
-        <td>
-            @Html.DisplayFor(modelItem => item.Season)
-        </td>
-        <td>
-            @Html.DisplayFor(modelItem => item.Occasion)
-        </td>
-        <td>
-            @Html.DisplayFor(modelItem => item.Type)
-        </td>
-        <td>
-            @Html.DisplayFor(modelItem => item.Photo)
-        </td>
-        <td>
-            @Html.ActionLink("Edit", "Edit", new { id=item.BottomsID }) |
-            @Html.ActionLink("Details", "Details", new { id=item.BottomsID }) |
-            @Html.ActionLink("Delete", "Delete", new { id=item.BottomsID })
-        </td>
-    </tr>
-}
+    <div class="row">
+        @foreach (var item in Model)
+        {
+            <div class="col-md-6">
 
-</table>
+                <img class="Images" src="@Html.DisplayFor(modelItem => item.Photo)" />
+                <h3>@Html.DisplayFor(modelItem => item.BottomName)</h3>
+                <p>@Html.ActionLink("Edit", "Edit", new { id = item.BottomsID }) : @Html.ActionLink("Details", "Details", new { id = item.BottomsID }) : @Html.ActionLink("Delete", "Delete", new { id = item.BottomsID })</p>
+
+            </div>
+        }
+    </div>
+</body>
+
+

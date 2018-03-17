@@ -28,12 +28,12 @@ body.TopsBody {
     background-image: url('Images/stone_pattern.jpg');
     background-size: cover;
 }
-img.TopsImages{
+img.Images{
     height:100px;
     width:100px;
 }
 
-img.TopsImages:hover {
+img.Images:hover {
     height: 300px;
     width: 300px;
 }
@@ -64,3 +64,10 @@ p {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color:snow;
 }
+
+/*Bottoms Page*/
+body.BottomsBody {
+    background-image: url('Images/BBR.jpg');
+    background-size:cover;
+}
+
