@@ -71,3 +71,8 @@ body.BottomsBody {
     background-size:cover;
 }
 
+/*Shoes Body*/
+body.ShoesBody {
+    background-image: url('Images/SBR.jpg');
+    background-size:cover;
+}
