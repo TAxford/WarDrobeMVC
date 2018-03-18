@@ -76,3 +76,74 @@ body.ShoesBody {
     background-image: url('Images/SBR.jpg');
     background-size:cover;
 }
+
+/*Accessories Body*/
+body.AccBody {
+    background-image: url('Images/ABR.jpg');
+    background-size: cover;
+}
+
+/*Home Page*/
+body.HomeBody {
+    background-image: url('Images/HBR.jpg');
+    background-size:cover;
+}
+
+
+.img-thumbnail {
+    background-color: darkslategray;
+}
+
+.col.HomeImg {
+    padding-left:125px;
+}
+
+.col.HomeImg img {
+    height: 400px;
+    width: 300px;
+}
+
+h1.Home {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: black;
+}
+
+p.Home {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: black;
+}
+
+h1.Home{
+    padding-left:200px;
+}
+
+p.Home {
+    padding-left: 150px;
+}
+
+/*Navagation Bar*/
+.navbar-header{
+    background-color:black;
+}
+
+a.navbar-brand{
+    color:snow!important;
+}
+
+a.navbar-brand:hover {
+    color: red!important;
+    background-color:black!important;
+}
+
+.navbar.navbar-inverse.navbar-fixed-top{
+    background-color:black!important;
+}
+
+li a {
+     color: snow !important;
+}
+
+    li a:hover {
+        color: red !important;
+        background-color: black !important;
+    }

@@ -11,7 +11,8 @@ namespace WardrobeMVC.Models
 {
     using System;
     using System.Collections.Generic;
-    
+    using System.ComponentModel.DataAnnotations;
+
     public partial class Bottom
     {
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2214:DoNotCallOverridableMethodsInConstructors")]
@@ -21,10 +22,12 @@ namespace WardrobeMVC.Models
         }
     
         public int BottomsID { get; set; }
+        [Display(Name = "Brand")]
         public string BottomName { get; set; }
         public string Color { get; set; }
         public string Season { get; set; }
         public string Occasion { get; set; }
+        [Display(Name = "Style")]
         public string Type { get; set; }
         public string Photo { get; set; }
     

@@ -195,12 +195,14 @@
     <Content Include="Content\bootstrap-theme.min.css" />
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
+    <Content Include="Content\Images\ABR.jpg" />
     <Content Include="Content\Images\BBR.jpg" />
     <Content Include="Content\Images\BlJeans.jpg" />
     <Content Include="Content\Images\BSPants.jpg" />
     <Content Include="Content\Images\BTie.jpg" />
     <Content Include="Content\Images\CPants.jpg" />
     <Content Include="Content\Images\DShoes.jpg" />
+    <Content Include="Content\Images\HBR.jpg" />
     <Content Include="Content\Images\Ljacket.jpg" />
     <Content Include="Content\Images\MMCT-shirt.jpg" />
     <Content Include="Content\Images\MMFT-shirt.jpg" />
@@ -218,6 +220,12 @@
     <Content Include="Content\Images\SSJacket.jpg" />
     <Content Include="Content\Images\stone_pattern.jpg" />
     <Content Include="Content\Images\UShorts.jpg" />
+    <Content Include="Content\Images\War1.jpg" />
+    <Content Include="Content\Images\War2.jpg" />
+    <Content Include="Content\Images\War3.jpg" />
+    <Content Include="Content\Images\War4.jpg" />
+    <Content Include="Content\Images\War5.jpg" />
+    <Content Include="Content\Images\War6.jpg" />
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
