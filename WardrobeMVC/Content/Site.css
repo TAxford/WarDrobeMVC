@@ -38,15 +38,15 @@ img.Images:hover {
     width: 300px;
 }
 
-h2{
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size:50px;
-    color:snow;
+h2 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 50px;
+    color: yellow;
 }
 
 a {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    color:snow;
+    color: yellow;
 }
 
 a:hover {
@@ -55,14 +55,14 @@ a:hover {
     background-color:black;
 }
 
-h3{
+h3 {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    color:snow;
+    color: yellow;
 }
 
 p {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    color:snow;
+    color: yellow;
 }
 
 /*Bottoms Page*/
@@ -126,8 +126,8 @@ p.Home {
     background-color:black;
 }
 
-a.navbar-brand{
-    color:snow!important;
+a.navbar-brand {
+    color: yellow !important;
 }
 
 a.navbar-brand:hover {
@@ -140,7 +140,7 @@ a.navbar-brand:hover {
 }
 
 li a {
-     color: snow !important;
+    color: yellow !important;
 }
 
     li a:hover {
